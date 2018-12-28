@@ -1,0 +1,337 @@
+/*body{
+    background: #000;
+}*/
+.clearfix:before,
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.w{
+    width: 1440px;
+    margin: 0 auto;  
+}
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #F9F9F9 repeat-x;
+    position: relative
+}
+.q p{ 
+    position: absolute;
+    left: 149px;
+    top: 10px;
+    font: 12px  PingFangSC-Regular;
+    color: #4A4A4A;   
+}
+.q img{
+    padding-left: 120px;
+    width:14px;
+    height: 17px;
+}
+.nav li{
+    float: right;
+    padding: 0 15px;
+}
+.nav img{
+    width: 10px;
+    height: 13px;
+    margin-bottom: -2px; 
+}
+.s{
+    margin-right: 120px;
+}
+.nav a, .i a{
+    color: #4A4A4A;
+    font: 12px  PingFangSC-Regular;
+    text-decoration: none;
+}
+.nav a:hover,.i a:hover,.right a:hover
+,.v a:hover{
+    color: #07B3F8;
+    text-decoration: underline;
+}
+.tw a:hover{
+    text-decoration: underline;
+}
+.banner,.i{
+    background: #ffffff;
+}
+.banner li{
+    float: left;
+}
+.banner{
+    position: relative;
+}
+.banner .btn{
+    width: 36px;
+    height: 33px;
+    background: url(../img/搜索.png) no-repeat;
+    position: absolute;
+    left: 1271px;
+    top: 10px;
+    border: none;
+}
+.e{
+    color: #08AEF8;
+    font: 30px Medium;
+}
+.r{
+    color: #07B3F8;
+    font: 12px  PingFangSC-Regular;
+}
+.t{
+    padding: 20px 20px 10px;
+    color: #333333;
+    font:  PingFangSC-Regularr;
+    
+}
+.y{
+    padding: 0 79px 0px 72px;
+    margin-left: 120px;
+}
+.t a{
+    text-decoration: none;
+}
+.t a:hover{
+    font-family: PingFangSC-Regular; 
+    color: #07B3F8;
+    text-decoration: underline;
+     
+}
+.banner .u{
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 30px;
+    margin: 12px 0px 0 100px; 
+    padding: 0px 49px 0px 18px;
+}
+.i li{
+    float: left;
+    padding: 0px 15px;
+    margin: 28px 0px 22px 0px;
+}
+.i img{
+    width: 8px;
+    height: 10px;
+}
+.i .d{
+   margin-left: 107px;
+}
+.content{
+    background: #ffffff repeat-x;
+}
+.wen{
+    width: 897px;
+    margin-left: 120px;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 10px;
+    float: left;
+}
+.wen img{
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.wen h2{
+    display: inline-block;
+    width: 180px;
+    height: 28px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+.wen .nv{
+    margin:10px 0px 0px 60px;
+    width: 47px;
+    height: 17px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #0EA7E6;
+    letter-spacing: 0;
+    
+}
+.wen ul li{
+    float: left;
+}
+.wen ul .ren{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0;
+    margin: 10px 0px 0px 50px;
+}
+.wen .bi{
+    margin-top: 45px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    border-top: 1px solid #DDDDDD;
+    padding: 22px 0px 10px 60px;
+}
+.wen .be{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 14px;
+    padding: 0px 0px 28px 60px;
+}
+.dai{
+    border: 1px solid #DFDFDF;
+    width: 897px;
+    margin-left: 119px;
+    float: left;
+}
+.dai img{
+    margin: 20px 0px 0px 20px;
+    float: left;
+}
+.dai li{
+    float: left;
+}
+.dai .zcy{
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0;
+    margin: 25px 10px 10px 18px;
+}
+.dai .ys{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #08AEF8;
+    letter-spacing: 0;
+    margin: 31px 0px 15px 0px;
+}
+.dai .xhk{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    margin-top: 63px;
+    margin-left: 106px;
+}
+.tw a{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #0EA7E6;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.tw{
+    float: right;
+    margin: 63px 23px 0px 0px;
+}
+.tw img{
+    margin: 0px 10px 0px 0px; 
+}
+.da{
+    margin: 25px 19px 0px 19px;
+    background: #F9F9F9;
+    padding: 19px 15px 1px 0px;
+}
+.da p{
+    line-height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0;
+    text-align: justify;
+    padding:0px;
+}
+.da img{
+    margin: 0px 14px 20px 19px;
+}
+.da h3{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0;
+    margin: 13px 0px 20px 89px;
+}
+.dai h4{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0;
+    text-align: justify;
+    margin: 10px 0px 24px 350px;
+}
+.right{
+    width: 277px;
+    float: right;
+    margin: 0px 126px 0px 16px;
+    border: 1px solid #DFDFDF;
+}
+.right p{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #02C3F0;
+    letter-spacing: 0;
+    margin: 15px 0px 0px 19px;
+}
+.right h3{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    margin: 42px 0px 0px 0px;
+}
+.right img{
+    float: left;
+    margin: 35px 9px 0px 18px;
+}
+.right h4{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    margin: 10px 0px 30px 53px;
+    line-height: 19px;
+}
+.right li{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #02C3F0;
+    letter-spacing: 0;
+    margin: 20px 0px 24px 43px;
+    list-style-type: disc;
+}
+.right a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+}
+.footer{
+    height: 154px;
+    background: #F9F9F9;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.footer a{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    text-decoration: none;
+}
+.footer .v{
+    padding: 30px 0px 15px;
+}
